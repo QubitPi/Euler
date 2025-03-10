@@ -100,7 +100,7 @@ jobs:
         run: yarn test
 
   npm-release:
-    name: Publish Nexus Graph to NPM
+    name: Publish Euler to NPM
     #needs: unit-tests
     if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
