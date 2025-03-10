@@ -13,30 +13,3 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import i18n from "i18next";
-import { initReactI18next } from "react-i18next";
-
-void i18n.use(initReactI18next).init({
-  resources: {
-    en: {
-      translation: {
-        "Thank you for choosing FastUI!": "Thank you for choosing FastUI!",
-        Contact: "Contact",
-      },
-    },
-    zh: {
-      translation: {
-        "Thank you for choosing FastUI!": "感谢您使用 FastUI!",
-        Contact: "联系我们",
-      },
-    },
-  },
-  lng: "en",
-  fallbackLng: "en",
-
-  interpolation: {
-    escapeValue: false,
-  },
-});
-
-export default i18n;

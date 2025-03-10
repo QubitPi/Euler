@@ -24,7 +24,7 @@ module.exports = function (webpackEnv) {
   const isProdEnvironment = webpackEnv === "production";
 
   return {
-    entry: "./packages/fast-ui-app/src/index.tsx",
+    entry: "./packages/euler-graph-visualization/index.tsx",
     mode: isProdEnvironment ? "production" : "development",
     devtool: "source-map",
     output: {
@@ -64,38 +64,7 @@ module.exports = function (webpackEnv) {
       ],
     },
     plugins: [
-      new webpack.HotModuleReplacementPlugin(),
-      // Generates an `index.html` file with the <script> injected.
-      new HtmlWebpackPlugin(
-        Object.assign(
-          {},
-          {
-            inject: true,
-            template: "./packages/fast-ui-app/public/index.html",
-          },
-          isProdEnvironment
-            ? {
-                minify: {
-                  removeComments: true,
-                  collapseWhitespace: true,
-                  removeRedundantAttributes: true,
-                  useShortDoctype: true,
-                  removeEmptyAttributes: true,
-                  removeStyleLinkTypeAttributes: true,
-                  keepClosingSlash: true,
-                  minifyJS: true,
-                  minifyCSS: true,
-                  minifyURLs: true,
-                },
-              }
-            : undefined,
-        ),
-      ),
-      sentryWebpackPlugin({
-        authToken: process.env.SENTRY_AUTH_TOKEN,
-        org: "paion-data",
-        project: "qubitpi-fast-ui",
-      }),
+      new webpack.HotModuleReplacementPlugin()
     ],
     resolve: {
       extensions: [".ts", ".tsx", ".js", ".json"],
