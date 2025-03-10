@@ -4,8 +4,6 @@
 [![GitHub Workflow Status]][GitHub Workflow URL]
 [![Apache License Badge]][Apache License, Version 2.0]
 
-
-
 ## License
 
 The use and distribution terms for [Euler]() are covered by the [Apache License, Version 2.0]

@@ -16,5 +16,5 @@
 
 export class Node {
   id: string;
-  labels: string[]
+  labels: string[];
 }

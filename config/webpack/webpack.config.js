@@ -63,9 +63,7 @@ module.exports = function (webpackEnv) {
         },
       ],
     },
-    plugins: [
-      new webpack.HotModuleReplacementPlugin()
-    ],
+    plugins: [new webpack.HotModuleReplacementPlugin()],
     resolve: {
       extensions: [".ts", ".tsx", ".js", ".json"],
     },
