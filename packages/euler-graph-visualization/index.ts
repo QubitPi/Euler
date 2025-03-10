@@ -13,7 +13,3 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-export { setMyState1, setMyState2, selectMyState1, selectMyState2 } from "./src/appSlice";
-
-export { useAppSelector, useAppDispatch } from "./src/hooks";
-export { store } from "./src/store";

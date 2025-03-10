@@ -13,11 +13,3 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { render } from "@testing-library/react";
-import App from "./App";
-
-describe("Example unit tests for App.tsx", () => {
-  test("sanity-check rendering", () => {
-    render(<App />);
-  });
-});

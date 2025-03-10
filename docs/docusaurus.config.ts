@@ -26,7 +26,7 @@ const config: Config = {
   url: "https://fastui.qubitpi.org",
   baseUrl: "/",
   organizationName: "QubitPi",
-  projectName: "fast-ui",
+  projectName: "euler",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -45,7 +45,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          editUrl: "https://github.com/QubitPi/fast-ui/tree/master/docs",
+          editUrl: "https://github.com/QubitPi/euler/tree/master/docs",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -76,7 +76,7 @@ const config: Config = {
           position: "left",
         },
         {
-          href: "https://github.com/QubitPi/fast-ui",
+          href: "https://github.com/QubitPi/euler",
           label: "GitHub",
           position: "right",
         },
@@ -108,7 +108,7 @@ const config: Config = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/QubitPi/fast-ui",
+              href: "https://github.com/QubitPi/euler",
             },
           ],
         },
