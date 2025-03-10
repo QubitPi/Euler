@@ -6018,9 +6018,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"euler@workspace:.":
+"euler-react@workspace:.":
   version: 0.0.0-use.local
-  resolution: "euler@workspace:."
+  resolution: "euler-react@workspace:."
   dependencies:
     "@argos-ci/cypress": "npm:^3.1.0"
     "@babel/cli": "npm:^7.23.4"
