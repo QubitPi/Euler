@@ -1,5 +1,5 @@
 {
-  "name": "euler",
+  "name": "euler-react",
   "workspaces": [
     "./packages/euler-model"
   ],
